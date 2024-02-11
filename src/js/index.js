@@ -64,7 +64,7 @@ export async function creationMarkupPage(dataCat) {
 
 <div class="description">
 <ul>
-<li><h2 class="nameCat">${objectCat.name}</h2></li>
+<li><h1 class="nameCat">${objectCat.name}</h1></li>
 <li><p class="text">${objectCat.description}</p></li>
 <li><p class="textSamp">Temperament</p></li>
 <li><p class="temper">${objectCat.temperament}</p></li>

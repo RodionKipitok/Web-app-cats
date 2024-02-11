@@ -36,24 +36,26 @@ body {
 }
 
 .imgCat {
+  display: block;
   width: 426px;
-  height: 316px;
-  border: 25px solid #fafafa;
+
+  border: 25px solid #f1efb8;
   border-top-width: 35px;
   border-bottom-width: 100px;
   border-radius: 5px;
+  background-size: cover;
   -webkit-box-shadow: 3px 3px 6px 4px #888;
   -moz-box-shadow: 3px 3px 6px 4px #888;
   box-shadow: 3px 3px 6px 4px #888;
 }
 
 .description {
-  margin-top: 190px;
+  margin-top: 150px;
 }
 
 .nameCat {
   margin: 0;
-  font-size: 60px;
+  font-size: 45px;
   font-style: italic;
   font-weight: bold;
 }
